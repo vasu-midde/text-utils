@@ -7,7 +7,7 @@ export default function navbar(props) {
     <div>
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   <div className="container-fluid">
-    <a className="navbar-brand" href="/" id='title'>{props.Title}</a>
+    <Link className="navbar-brand" to="/" id="title">{props.Title}</Link>
     <button
       className="navbar-toggler"
       type="button"

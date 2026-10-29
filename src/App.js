@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import Inputs from './components/Inputs';
 import About from './components/About';
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
